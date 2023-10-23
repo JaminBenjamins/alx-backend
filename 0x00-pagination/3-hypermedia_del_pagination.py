@@ -50,8 +50,8 @@ class Server:
         for _ in range(page_size):
             while not csv.get(_next):
                 _next += 1
-            data.append(csv.get(_next):
-                _next += 1
+            data.append(csv.get(_next))
+            _next += 1
         return {
             "index": index,
             "data": data,
