@@ -14,7 +14,7 @@ class FIFOCache(BaseCaching):
         """
         Defining the constructor
         """
-        super().__init_()
+        super().__init__()
         self.key_indexes = []
 
     def put(self, key, item):
